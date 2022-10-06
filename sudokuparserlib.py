@@ -12,8 +12,6 @@ from PIL import ImageOps
 import tensorflow as tf
 from tensorflow import keras
 
-#%cd /content/drive/MyDrive/Colab\ Notebooks/SudokuParser
-
 
 def draw_sudoku(im, A, pos, width):
   """ Draw a sudoku on a PIL image object
